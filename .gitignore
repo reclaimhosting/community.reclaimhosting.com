@@ -1,2 +1,4 @@
 wp
-json/*
+json/zen.json
+json/community.jso
+error_log
