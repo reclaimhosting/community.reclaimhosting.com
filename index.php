@@ -59,6 +59,7 @@
       <?php modal_maker_support('support', 'Reclaim Support');?>      
       <?php modal_maker_tv('tv', 'Reclaim TV');?>      
       <?php modal_maker_social('social', 'Social');?>
+      <div class="divider bottom-divider"></div>
       <div class="footer container-fluid bd-gutter flex-wrap flex-lg-nowrap">
         <a href="https://reclaimhosting.com">reclaimhosting.com</a>
         <p>© All Rights Reserved 2022</p>

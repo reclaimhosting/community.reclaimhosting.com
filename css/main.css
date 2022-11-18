@@ -196,11 +196,16 @@ h3 {
 	padding: 20px 0 0 0;
 }
 
+.bottom-divider {
+	margin-top: 100px;
+}
+
 .footer {
 	margin: 50px 0 20px 0;
     padding: 50px 5% 0% 5%;
     display: flex;
-    border-top: 1px solid #000;
+    align-content: space-between;
+    justify-content: space-between;
 }
 
 .videoWrapper {

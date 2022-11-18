@@ -166,7 +166,7 @@ function makeAnnounceList(data){
 	const destination = document.getElementById("latest-posts");
 	const preview = data;	
          preview.forEach((element) => {
-         	console.log(element)
+         	//console.log(element)
             const link = element.link;
             const title = element.title.rendered;
             const excerpt = element.excerpt.rendered;
@@ -324,7 +324,7 @@ function doTheSupport(){
 async function supportFetch(url) {
 	  const response = await fetch(url);
 	  const data = await response.json();
-	  console.log(data);
+	  //console.log(data);
 	  makeSupport(data);
 }
 
@@ -335,7 +335,7 @@ function makeSupport(data){
 	const preview = data.articles;
 	let postCount = 0;
          preview.forEach((element) => {
-       		console.log(element);
+       		//console.log(element);
        		if(postCount < 5){
        			postCount = postCount+1;
        			const link = element.html_url;
