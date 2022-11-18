@@ -1,6 +1,8 @@
 body {
 	background-color: #aed0e6;
 	font-family: "Rubik", Sans-serif;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
 }
 
 a {
@@ -136,7 +138,7 @@ h3 {
 
 
 .modal-dialog {
-	max-width: 85% !important;
+	max-width: 85%;
 }
 
 .chat-btn {
@@ -248,4 +250,38 @@ h3 {
 	font-weight: 100;
 	text-align: center;
 	font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+	.modal-title {
+		font-size: 2rem;
+	}
+
+	.modal-dialog {
+		max-width: 100%;
+	}
+
+	.modal-content {
+		padding: 20px;
+	}
+
+	.event {
+		display: block;
+	}
+
+	.cal-block {
+		margin-bottom: 20px;
+	}
+
+	.prev-discourse {
+		display: block;		
+	}
+	.discourse-img {
+		display: block;
+		margin-bottom: 15px;
+	}
+	.data-holder {
+		margin-left: 0;
+	}
+
 }
