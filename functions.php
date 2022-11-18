@@ -130,7 +130,7 @@ function modal_maker_announcements($id, $title){
 					       		</p>
 					       </div>
 					       <div class='col-md-6'>
-						      <img src='https://communitydev.reclaimhosting.com/wp-content/uploads/2022/09/im-blogging.gif' class='img-fluid' alt='I am blogging right now video of a guy drinking coffee.'>
+						      <img src='imgs/im-blogging.gif' class='img-fluid' alt='I am blogging right now video of a guy drinking coffee.'>
 					       </div>
 					     </div>
 					      <div class='row pad-it'>
