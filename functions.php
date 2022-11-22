@@ -91,8 +91,8 @@ function modal_maker_chat($id, $title){
 					      		<div id='latest-chat'></div>
 					      	</div>
 					      	<div class='col-md-6'>
-					      		<h3>Previous Community Chats</h3>
-					      		<div id='previous-chats'></div>
+					      		<h3>Upcoming Community Chats</h3>
+					      		<div id='upcoming-chats'></div>
 					      	</div>
 					      </div>
 			      </div>			     

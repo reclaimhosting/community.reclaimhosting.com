@@ -86,7 +86,7 @@ function monthTranslator(monthNumber){
 **
 */
 function doTheChat(){
-	const url = 'https://www.reclaimhosting.com/wp-json/tribe/events/v1/events?tribe_events_cat=742&per_page=5&_embed';
+	const url = 'https://www.reclaimhosting.com/wp-json/tribe/events/v1/events?categories=742&per_page=5&_embed';
 	const data = chatFetch(url);
 }
 
@@ -106,7 +106,7 @@ async function chatFetch(url) {
 
 
 function makeChatList(data){
-	const destination = document.getElementById("previous-chats");
+	const destination = document.getElementById("upcoming-chats");
 	const preview = data;	
 	let postCount = 0;
          preview.forEach((element) => {
