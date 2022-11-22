@@ -79,7 +79,8 @@ function modal_maker_chat($id, $title){
 					       </div>
 					       <div class='col-md-6'>
 					       <img class='img-fluid' src='imgs/Simple-logo-Community-Chat.png' alt='Community Chat logo.'>
-					       <a class='blue-btn chat-btn' href='https://reclaimed.tech/community-chats/'>Register for the next Community Chat</a>
+					       <a class='blue-btn' href='https://reclaimed.tech/community-chats/'>Register for the next Community Chat</a>
+					       <a class='blue-btn' href='https://archive.reclaim.tv/w/p/rZqxbb5B4d5QR7kLzerwM8'>Community Chat Recordings</a>
 					       </div>
 					     </div>
 					      <div class='row'>
