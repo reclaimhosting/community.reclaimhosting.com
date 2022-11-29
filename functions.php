@@ -121,7 +121,7 @@ function modal_maker_announcements($id, $title){
 			      <div class='modal-body'>
 			      		<div class='row'>
 				      		<div class='col-md-12'>
-				      			<img class='img-fluid full-img' src='imgs/reclaimtheblog-vhs.webp' alt='VCR tape with Reclaim the blog written on it.'>
+				      			<img class='img-fluid' src='imgs/reclaimtheblog-vhs.webp' alt='VCR tape with Reclaim the blog written on it.'>
 				      		</div>
 					       <div class='col-md-6'>
 					       		<h3>What does Reclaim talk about?</h3>
@@ -172,7 +172,7 @@ function modal_maker_forums($id, $title){
 			      <div class='modal-body'>
 			      		<div class='row'>
 			      			<div class='col-md-12'>
-			      				<img class='img-fluid full-img' src='imgs/community-1210x423-1-1024x358.jpg'>
+			      				<img class='img-fluid' src='imgs/community-1210x423-1-1024x358.jpg'>
 			      			</div>
 					       <div class='col-md-6'>
 					       		<h3>What are the Reclaim Community Forums?</h3>
@@ -317,7 +317,7 @@ function modal_maker_tv($id, $title){
 			      <div class='modal-body'>
 			      		<div class='row'>
 			      		<div class='col-md-12'>
-				      			<img class='img-fluid full-img col-img' src='imgs/TV-Turnaround-2048x418.webp' alt='A series of TVs with Reclaim TV on the screens.'>
+				      			<img class='img-fluid col-img' src='imgs/TV-Turnaround-2048x418.webp' alt='A series of TVs with Reclaim TV on the screens.'>
 				      		</div>
 				      		
 					       <div class='col-md-6'>
