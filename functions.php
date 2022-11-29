@@ -278,7 +278,7 @@ function modal_maker_support($id, $title){
 					     </div>
 					      <div class='row'>
 					      	<div class='col-md-6'>
-					      		 <h3>Our Recent Support Articles</h3>
+					      		 <h3>Our Recently Updated Support Articles</h3>
 						       <div id='support-comments'></div>						       
 					      	</div>
 					      	<div class='col-md-6'>
