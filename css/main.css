@@ -90,6 +90,11 @@ h3 {
 	width: 100%;
 }
 
+.img-fluid {
+	display: block;
+	margin: auto;
+}
+
 .tiny {
 	font-size:  .7em;
 	font-weight: 100;
