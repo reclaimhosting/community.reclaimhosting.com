@@ -35,7 +35,7 @@ function modal_maker_edtech(){
 					       		</p>
 					       </div>
 					       <div class='col-md-6'>
-					       <img class='img-fluid' src='imgs/transparent-neon-edtech-tv-1.webp' alt=''>
+					       <img class='img-fluid col-img' src='imgs/transparent-neon-edtech-tv-1.webp' alt=''>
 					       </div>
 					     </div>
 					      <div class='row'>
@@ -78,7 +78,7 @@ function modal_maker_chat($id, $title){
 					       		</p>
 					       </div>
 					       <div class='col-md-6'>
-					       <img class='img-fluid' src='imgs/Simple-logo-Community-Chat.png' alt='Community Chat logo.'>
+					       <img class='img-fluid col-img' src='imgs/Simple-logo-Community-Chat.png' alt='Community Chat logo.'>
 					       <a class='blue-btn' href='https://reclaimed.tech/community-chats/'>Register for the next Community Chat</a>
 					       <a class='blue-btn' href='https://archive.reclaim.tv/w/p/rZqxbb5B4d5QR7kLzerwM8'>Community Chat Recordings</a>
 					       </div>
@@ -131,7 +131,7 @@ function modal_maker_announcements($id, $title){
 					       		</p>
 					       </div>
 					       <div class='col-md-6'>
-						      <img src='imgs/im-blogging.gif' class='img-fluid' alt='I am blogging right now video of a guy drinking coffee.'>
+						      <img src='imgs/im-blogging.gif' class='img-fluid col-img' alt='I am blogging right now video of a guy drinking coffee.'>
 					       </div>
 					     </div>
 					      <div class='row pad-it'>
@@ -224,7 +224,7 @@ function modal_maker_roundup($id, $title){
 					       		</ul>
 					       </div>
 					       <div class='col-md-6'>
-						      <img src='imgs/Roundup-on-a-TV-1024x789.webp' class='img-fluid' alt='An old TV cartoon with Reclaim Roundup on the screen.'>
+						      <img src='imgs/Roundup-on-a-TV-1024x789.webp' class='img-fluid col-img' alt='An old TV cartoon with Reclaim Roundup on the screen.'>
 					       </div>
 					     </div>
 					      <div class='row'>
@@ -273,7 +273,7 @@ function modal_maker_support($id, $title){
 					       		<p>Support takes many shapes at Reclaim Hosting, including but not limited to: thorough responses in Support tickets, observing unique Service Level Agreements, regularly adding to our Support Documentation, creating Professional Development materials for upcoming trainings, jumping in on escalated Support calls, and monitoring our fleet of servers around the clock. </p>
 					       </div>
 					       <div class='col-md-6'>
-						      <img src='imgs/Simple-logo-Support.webp' class='img-fluid' alt='Two people sitting on the word support.'>
+						      <img src='imgs/Simple-logo-Support.webp' class='img-fluid col-img' alt='Two people sitting on the word support.'>
 					       </div>
 					     </div>
 					      <div class='row'>
@@ -317,7 +317,7 @@ function modal_maker_tv($id, $title){
 			      <div class='modal-body'>
 			      		<div class='row'>
 			      		<div class='col-md-12'>
-				      			<img class='img-fluid full-img' src='imgs/TV-Turnaround-2048x418.webp' alt='A series of TVs with Reclaim TV on the screens.'>
+				      			<img class='img-fluid full-img col-img' src='imgs/TV-Turnaround-2048x418.webp' alt='A series of TVs with Reclaim TV on the screens.'>
 				      		</div>
 				      		
 					       <div class='col-md-6'>

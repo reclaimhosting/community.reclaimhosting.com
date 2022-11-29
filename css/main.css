@@ -93,6 +93,11 @@ h3 {
 .img-fluid {
 	display: block;
 	margin: auto;
+	max-height: 75vh;
+}
+
+.col-img {
+	max-height: 30vh;
 }
 
 .tiny {
