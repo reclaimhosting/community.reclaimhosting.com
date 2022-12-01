@@ -95,6 +95,18 @@ h3 {
 	max-height: 25vh;
 }
 
+.inline-img {
+	float: right;
+	max-height: 10rem;
+	max-width: 50%;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+}
+
+.roundup-img {
+	margin-bottom: 0;
+}
+
 .tiny {
 	font-size:  .7em;
 	font-weight: 100;

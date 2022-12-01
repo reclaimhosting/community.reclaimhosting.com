@@ -29,27 +29,22 @@ function modal_maker_edtech(){
 			      		<div class='row'>
 					       <div class='col-md-6'>
 					       		<h3>What is Instructional Technology at Reclaim Hosting?</h3>
+								<img class='inline-img' src='imgs/transparent-neon-edtech-tv-1.webp' alt=''>
 					       		<p>Simply put, this is professional development and intentional community support built specifically with Educational Technologists in mind.</p>
 					       		<p>
 					       		The tools we host are only as interesting as the people behind them, and it’s our goal to create a structure to help everyone explore, question, learn, and build the future of teaching and learning together. We are a niche support hub and learning community for curious minds and creative tinkerers, whether you have a background in Instructional Design, advanced IT Support, or sit somewhere in between.
 					       		</p>
+								<h3>What's on the horizon?</h3>
+								<p>At any given time, we’re gearing up for a flex course, workshop, community chat, or impromptu stream. Check out the list of upcoming events or click on the following links to get involved:</p>
+									<a class='blue-btn' href='https://reclaimed.tech/'>reclaim.tech</a>
+									<a class='blue-btn' href='https://reclaimed.tech/discord'>Say hello on Discord</a>
+									<a class='blue-btn' href='https://reclaimhosting.com/events/'>Upcoming Events</a>
 					       </div>
 					       <div class='col-md-6'>
-					       <img class='img-fluid col-img' src='imgs/transparent-neon-edtech-tv-1.webp' alt=''>
+						   <div id='ed-tech-events'></div>
 					       </div>
 					     </div>
-					      <div class='row'>
-					      	<div class='col-md-6'>
-					      		<div id='ed-tech-events'></div>
-					      	</div>
-					      	<div class='col-md-6'>
-					      		<h3>What's on the horizon?</h3>
-					      		<p>At any given time, we’re gearing up for a flex course, workshop, community chat, or impromptu stream. Check out the list of upcoming events or click on the following links to get involved:</p>
-					      		    <a class='blue-btn' href='https://reclaimed.tech/'>reclaim.tech</a>
-					      		    <a class='blue-btn' href='https://reclaimed.tech/discord'>Say hello on Discord</a>
-					      		    <a class='blue-btn' href='https://reclaimhosting.com/events/'>Upcoming Events</a>
-					      	</div>
-					      </div>
+
 			      </div>			     
 			      <div class='modal-footer'>
 			       <!--<button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>-->
@@ -76,26 +71,20 @@ function modal_maker_chat($id, $title){
 					       		<p>
 					       		The monthly topic is chosen by the Reclaim team and announced a few weeks in advance. Community Chats are completely free, open for anyone to attend, and a great chance to get to know folks from other schools that might be running projects similar to yours.
 					       		</p>
+								<h3>Latest Community Chat</h3>
+								<div class="videoWrapper">
+									<iframe title="Community Chats" src="https://archive.reclaim.tv/video-playlists/embed/d278fbb0-bff4-4dc5-b484-50375ac8d049" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe>
+								</div>
+								<div id='latest-chat'></div>
 					       </div>
 					       <div class='col-md-6'>
 					       <img class='img-fluid col-img' src='imgs/Simple-logo-Community-Chat.png' alt='Community Chat logo.'>
 					       <a class='blue-btn' href='https://reclaimed.tech/community-chats/'>Register for the next Community Chat</a>
 					       <a class='blue-btn' href='https://archive.reclaim.tv/w/p/rZqxbb5B4d5QR7kLzerwM8'>Community Chat Recordings</a>
+						   <h3>Upcoming Community Chats</h3>
+						   <div id='upcoming-chats'></div>
 					       </div>
 					     </div>
-					      <div class='row'>
-					      	<div class='col-md-6'>
-					      		<h3>Latest Community Chat</h3>
-					      		<div class="videoWrapper">
-						      		<iframe title="Community Chats" src="https://archive.reclaim.tv/video-playlists/embed/d278fbb0-bff4-4dc5-b484-50375ac8d049" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe>
-						      	</div>
-					      		<div id='latest-chat'></div>
-					      	</div>
-					      	<div class='col-md-6'>
-					      		<h3>Upcoming Community Chats</h3>
-					      		<div id='upcoming-chats'></div>
-					      	</div>
-					      </div>
 			      </div>			     
 			      <div class='modal-footer'>
 			       <!--<button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>-->
@@ -125,28 +114,22 @@ function modal_maker_announcements($id, $title){
 				      		</div>
 					       <div class='col-md-6'>
 					       		<h3>What does Reclaim talk about?</h3>
+								<img src='imgs/im-blogging.gif' class='inline-img' alt='I am blogging right now video of a guy drinking coffee.'>
 					       		<p>It’s no secret that there’s a lot going on at Reclaim Hosting. At any given time, we’re planning for upcoming trainings, scheduling out infrastructure maintenance and improvements, and even looking towards our next biennial Domains conference.</p>
 					       		<p>
 					       		Our internal team has a lot to say, too. We’re always narrating the work that we do by capturing our thinking blog posts, podcasts, and informal streams. We’re so appreciative that you want to tag along and be a part of the conversation. Stay in the know by checking out some of the following resources:
 					       		</p>
+								<h3>Other Announcements</h3>
+								<p>Below you can find a list of quick links to various happenings at Reclaim Hosting. Like and subscribe!</p>
+								<a class='blue-btn' href="https://roundup.reclaimhosting.com/">The Reclaim Newsletter</a>
+								<a class='blue-btn' href="https://reclaimhosting.com/category/announcements/infrastructure/">Infrastructure Announcements</a>
+								<a class='blue-btn' href="https://reclaimhosting.com/blog/">The Reclaim Blog</a>
 					       </div>
 					       <div class='col-md-6'>
-						      <img src='imgs/im-blogging.gif' class='img-fluid col-img' alt='I am blogging right now video of a guy drinking coffee.'>
+								<h3>Recent Blog Posts</h3>
+								<div id='latest-posts'></div>
 					       </div>
 					     </div>
-					      <div class='row pad-it'>
-					      	<div class='col-md-6'>
-					      		 <h3>Recent Blog Posts</h3>
-						       <div id='latest-posts'></div>
-					      	</div>
-					      	<div class='col-md-6'>
-					      		<h3>Other Announcements</h3>
-					      		<p>Below you can find a list of quick links to various happenings at Reclaim Hosting. Like and subscribe!</p>
-					      		<a class='blue-btn' href="https://roundup.reclaimhosting.com/">The Reclaim Newsletter</a>
-					      		<a class='blue-btn' href="https://reclaimhosting.com/category/announcements/infrastructure/">Infrastructure Announcements</a>
-					      		<a class='blue-btn' href="https://reclaimhosting.com/blog/">The Reclaim Blog</a>
-					      	</div>
-					      </div>
 			      </div>			     
 			      <div class='modal-footer'>
 			       <!--<button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>-->
@@ -213,6 +196,7 @@ function modal_maker_roundup($id, $title){
 				      		
 					       <div class='col-md-6'>
 					       		<h3>Reclaiming the Newsletter</h3>
+								<img src='imgs/Roundup-on-a-TV-1024x789.webp' class='inline-img roundup-img' alt='An old TV cartoon with Reclaim Roundup on the screen.'>
 					       		<p>A lot goes on backstage at Reclaim Hosting, and we want to share it all with you. The <a href='https://roundup.reclaimhosting.com/'>Reclaim Roundup</a> is published on the last day of each month and includes the following topics:</p>
 					       		<ul>
 					       			<li>Company Announcements (hiring, infrastructure maintenance, etc.)</li>
@@ -222,24 +206,17 @@ function modal_maker_roundup($id, $title){
 					       			<li>Other Staff picks (like <a href="https://tholman.com/cursor-effects/" target="_blank" rel="noopener">90’s Cursor Effects</a>, you’re welcome)</li>
 					       			<li>The greatest collection of GIFs of all time</li>
 					       		</ul>
+								<h3>Want to share something on the next Roundup?</h3>
+								<p>We love to highlight cool things happening in the Reclaim community. Let us know at <a href="mailto:roundup@reclaimhosting.com">roundup@reclaimhosting.com</a>.</p>
+								<a class='blue-btn' href="https://roundup.reclaimhosting.com/page/2/">Read Previous Issues</a>
+								<a class='blue-btn' href="https://roundup.reclaimhosting.com/#/portal/signup">Subscribe to Reclaim Roundup</a>
+								<a class='blue-btn' href="https://roundup.reclaimhosting.com/rss/">RSS Feed</a>
 					       </div>
 					       <div class='col-md-6'>
-						      <img src='imgs/Roundup-on-a-TV-1024x789.webp' class='img-fluid col-img' alt='An old TV cartoon with Reclaim Roundup on the screen.'>
+							  <h3>Latest Issue</h3>
+							  <div id='latest-roundup'></div>
 					       </div>
 					     </div>
-					      <div class='row'>
-					      	<div class='col-md-6'>
-					      		 <h3>Latest Issue</h3>
-						       <div id='latest-roundup'></div>
-					      	</div>
-					      	<div class='col-md-6'>
-					      		<h3>Want to share something on the next Roundup?</h3>
-					      		<p>We love to highlight cool things happening in the Reclaim community. Let us know at <a href="mailto:roundup@reclaimhosting.com">roundup@reclaimhosting.com</a>.</p>
-					      		<a class='blue-btn' href="https://roundup.reclaimhosting.com/page/2/">Read Previous Issues</a>
-					      		<a class='blue-btn' href="https://roundup.reclaimhosting.com/#/portal/signup">Subscribe to Reclaim Roundup</a>
-					      		<a class='blue-btn' href="https://roundup.reclaimhosting.com/rss/">RSS Feed</a>
-					      	</div>
-					      </div>
 			      </div>			     
 			      <div class='modal-footer'>
 			       <!--<button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>-->
@@ -269,27 +246,21 @@ function modal_maker_support($id, $title){
 				      		
 					       <div class='col-md-6'>
 					       		<h3>What does Support look like at Reclaim Hosting?</h3>
+								<img src='imgs/Simple-logo-Support.webp' class='inline-img' alt='Two people sitting on the word support.'>
 					       		<p>Support is rooted in almost everything we do at Reclaim, and it’s one of our key considerations when we think about upcoming events, plan for infrastructure improvements, and even hire new team members. We want everyone that engages with Reclaim Hosting to have a top-tier support experience, and that means that we aim to listen, teach, consult, and help out any way we can. For more information, read more about <a href='https://reclaimhosting.com/careers/'>our core values</a>.</p>
-					       		<p>Support takes many shapes at Reclaim Hosting, including but not limited to: thorough responses in Support tickets, observing unique Service Level Agreements, regularly adding to our Support Documentation, creating Professional Development materials for upcoming trainings, jumping in on escalated Support calls, and monitoring our fleet of servers around the clock. </p>
+					       		<p>Support takes many shapes at Reclaim Hosting, including but not limited to: thorough responses in Support tickets, observing unique Service Level Agreements, regularly adding to our Support Documentation, creating Professional Development materials for upcoming trainings, jumping in on escalated Support calls, and monitoring our fleet of servers around the clock. </p>		
 					       </div>
 					       <div class='col-md-6'>
-						      <img src='imgs/Simple-logo-Support.webp' class='img-fluid col-img' alt='Two people sitting on the word support.'>
-					       </div>
-					     </div>
-					      <div class='row'>
-					      	<div class='col-md-6'>
-					      		 <h3>Our Recently Updated Support Articles</h3>
-						       <div id='support-comments'></div>						       
-					      	</div>
-					      	<div class='col-md-6'>
-					      		<h3>Support Resources</h3>
+							  <h3>Support Resources</h3>
 					      		<p>Check out the following list of Reclaim Support resources:</p>
 					      		<a class='blue-btn' href="https://support.reclaimhosting.com/hc/en-us">Support Documentation</a>
 					      		<a class='blue-btn' href="https://reclaimhosting.com/category/announcements/infrastructure/">Infrastructure Announcements</a>
 					      		<a class='blue-btn' href="https://status.reclaimhosting.com/">Server Monitorying & Status Reports</a>
 					      		<a class='blue-btn' href="https://support.reclaimhosting.com/hc/en-us/requests/new/">Contact Reclaim Support</a>
-					      	</div>
-					      </div>
+								  <h3>Our Recently Updated Support Articles</h3>
+								  <div id='support-comments'></div>
+					       </div>
+					     </div>
 			      </div>			     
 			      <div class='modal-footer'>
 			       <!--<button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>-->
