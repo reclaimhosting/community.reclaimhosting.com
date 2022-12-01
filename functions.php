@@ -246,9 +246,9 @@ function modal_maker_support($id, $title){
 				      		
 					       <div class='col-md-6'>
 					       		<h3>What does Support look like at Reclaim Hosting?</h3>
-								<img src='imgs/Simple-logo-Support.webp' class='inline-img' alt='Two people sitting on the word support.'>
 					       		<p>Support is rooted in almost everything we do at Reclaim, and it’s one of our key considerations when we think about upcoming events, plan for infrastructure improvements, and even hire new team members. We want everyone that engages with Reclaim Hosting to have a top-tier support experience, and that means that we aim to listen, teach, consult, and help out any way we can. For more information, read more about <a href='https://reclaimhosting.com/careers/'>our core values</a>.</p>
 					       		<p>Support takes many shapes at Reclaim Hosting, including but not limited to: thorough responses in Support tickets, observing unique Service Level Agreements, regularly adding to our Support Documentation, creating Professional Development materials for upcoming trainings, jumping in on escalated Support calls, and monitoring our fleet of servers around the clock. </p>		
+							   <img src='imgs/Simple-logo-Support.webp' class='img-fluid col-img' alt='Two people sitting on the word support.'>
 					       </div>
 					       <div class='col-md-6'>
 							  <h3>Support Resources</h3>
