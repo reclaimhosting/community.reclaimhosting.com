@@ -28,8 +28,8 @@ function modal_maker_edtech(){
 			      <div class='modal-body'>
 			      		<div class='row'>
 					       <div class='col-md-6'>
+						   		<img class='img-fluid col-img' src='imgs/transparent-neon-edtech-tv-1.webp' alt=''>
 					       		<h3>What is Instructional Technology at Reclaim Hosting?</h3>
-								<img class='inline-img' src='imgs/transparent-neon-edtech-tv-1.webp' alt=''>
 					       		<p>Simply put, this is professional development and intentional community support built specifically with Educational Technologists in mind.</p>
 					       		<p>
 					       		The tools we host are only as interesting as the people behind them, and it’s our goal to create a structure to help everyone explore, question, learn, and build the future of teaching and learning together. We are a niche support hub and learning community for curious minds and creative tinkerers, whether you have a background in Instructional Design, advanced IT Support, or sit somewhere in between.
@@ -71,6 +71,8 @@ function modal_maker_chat($id, $title){
 					       		<p>
 					       		The monthly topic is chosen by the Reclaim team and announced a few weeks in advance. Community Chats are completely free, open for anyone to attend, and a great chance to get to know folks from other schools that might be running projects similar to yours.
 					       		</p>
+								<a class='blue-btn' href='https://reclaimed.tech/community-chats/'>Register for the next Community Chat</a>
+								<a class='blue-btn' href='https://archive.reclaim.tv/w/p/rZqxbb5B4d5QR7kLzerwM8'>Community Chat Recordings</a>
 								<h3>Latest Community Chat</h3>
 								<div class="videoWrapper">
 									<iframe title="Community Chats" src="https://archive.reclaim.tv/video-playlists/embed/d278fbb0-bff4-4dc5-b484-50375ac8d049" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe>
@@ -79,8 +81,6 @@ function modal_maker_chat($id, $title){
 					       </div>
 					       <div class='col-md-6'>
 					       <img class='img-fluid col-img' src='imgs/Simple-logo-Community-Chat.png' alt='Community Chat logo.'>
-					       <a class='blue-btn' href='https://reclaimed.tech/community-chats/'>Register for the next Community Chat</a>
-					       <a class='blue-btn' href='https://archive.reclaim.tv/w/p/rZqxbb5B4d5QR7kLzerwM8'>Community Chat Recordings</a>
 						   <h3>Upcoming Community Chats</h3>
 						   <div id='upcoming-chats'></div>
 					       </div>
@@ -113,8 +113,8 @@ function modal_maker_announcements($id, $title){
 				      			<img class='img-fluid' src='imgs/reclaimtheblog-vhs.webp' alt='VCR tape with Reclaim the blog written on it.'>
 				      		</div>
 					       <div class='col-md-6'>
+						   		<img src='imgs/im-blogging.gif' class='img-fluid col-img' alt='I am blogging right now video of a guy drinking coffee.'>
 					       		<h3>What does Reclaim talk about?</h3>
-								<img src='imgs/im-blogging.gif' class='inline-img' alt='I am blogging right now video of a guy drinking coffee.'>
 					       		<p>It’s no secret that there’s a lot going on at Reclaim Hosting. At any given time, we’re planning for upcoming trainings, scheduling out infrastructure maintenance and improvements, and even looking towards our next biennial Domains conference.</p>
 					       		<p>
 					       		Our internal team has a lot to say, too. We’re always narrating the work that we do by capturing our thinking blog posts, podcasts, and informal streams. We’re so appreciative that you want to tag along and be a part of the conversation. Stay in the know by checking out some of the following resources:
@@ -196,7 +196,6 @@ function modal_maker_roundup($id, $title){
 				      		
 					       <div class='col-md-6'>
 					       		<h3>Reclaiming the Newsletter</h3>
-								<img src='imgs/Roundup-on-a-TV-1024x789.webp' class='inline-img roundup-img' alt='An old TV cartoon with Reclaim Roundup on the screen.'>
 					       		<p>A lot goes on backstage at Reclaim Hosting, and we want to share it all with you. The <a href='https://roundup.reclaimhosting.com/'>Reclaim Roundup</a> is published on the last day of each month and includes the following topics:</p>
 					       		<ul>
 					       			<li>Company Announcements (hiring, infrastructure maintenance, etc.)</li>
@@ -213,6 +212,7 @@ function modal_maker_roundup($id, $title){
 								<a class='blue-btn' href="https://roundup.reclaimhosting.com/rss/">RSS Feed</a>
 					       </div>
 					       <div class='col-md-6'>
+							   <img src='imgs/Roundup-on-a-TV-1024x789.webp' class='img-fluid col-img' alt='An old TV cartoon with Reclaim Roundup on the screen.'>
 							  <h3>Latest Issue</h3>
 							  <div id='latest-roundup'></div>
 					       </div>
