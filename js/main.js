@@ -1,5 +1,5 @@
 
-//https://communitydev.reclaimhosting.com/
+//https://community.reclaimhosting.com/
 //https://docs.google.com/document/d/1ogk8Bv4ozO0ThviYJrqd7e-DsoZIeSIq0UBWv4za-Us/edit#
 doTheEdtech();
 doTheChat();
@@ -237,12 +237,12 @@ function makeForumsList(data){
          			const postNumber = element.post_number;
          		} 
          		const slug = element.topic_slug;
-         		const link = `https://community.reclaimhosting.com/t/${slug}/${element.topic_id}/${postNumber}`;
+         		const link = `https://forums.reclaimhosting.com/t/${slug}/${element.topic_id}/${postNumber}`;
 	            const title = element.topic_html_title;
 	            const excerpt = element.raw.slice(0, 100) + ' . . .';
 	            const date = element.created_at.slice(0, 10);
 	            const avatar = element.avatar_template.replace('{size}', '45');
-	            const image = `https://community.reclaimhosting.com/${avatar}`;
+	            const image = `https://forums.reclaimhosting.com/${avatar}`;
 	            //console.log(image)
 	            const div = document.createElement("div");
 	            div.classList.add('chats-past');

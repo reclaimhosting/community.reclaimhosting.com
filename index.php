@@ -14,7 +14,7 @@
       <?php require __DIR__ . "/functions.php";?>
     	<header class="navbar">
     		<nav class="container-fluid bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
-    			<a href="https://communitydev.reclaimhosting.com/"><img width="405" height="70" src="imgs/reclaim-logo.png" alt="Relcaim Hosting logo." class="header-logo img-fluid"></a>
+    			<a href="https://community.reclaimhosting.com/"><img width="405" height="70" src="imgs/reclaim-logo.png" alt="Relcaim Hosting logo." class="header-logo img-fluid"></a>
             <ul id="nav-menu">
               <li>
                 <a href="https://reclaimhosting.com/about" class="">
@@ -76,5 +76,5 @@
 
 <?php 
   json_fetcher('https://reclaimhosting.zendesk.com/api/v2/help_center/en-us/articles?sort_by=updated_at&sort_order=desc','zen');
-  json_fetcher('https://community.reclaimhosting.com/posts.json','community');
+  json_fetcher('https://forums.reclaimhosting.com/posts.json','community');
 ?>

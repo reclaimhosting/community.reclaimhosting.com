@@ -161,9 +161,9 @@ function modal_maker_forums($id, $title){
 					       		<h3>What are the Reclaim Community Forums?</h3>
 					       		<p>This is a space for general conversation relating to web hosting, domains, best practices, web software, and anything else trending in higher ed. We want this to be place for questioning, learning, and exploring. If you’re interested in more real-time conversation, check out our <a href=''>Discord server!</a></p>
 					       		<h3>Popular Forum Topics</h3>
-					       		<a href='https://community.reclaimhosting.com/c/newbies/31' class='blue-btn'>Newbies Corner</a>
-					       		<a href='https://community.reclaimhosting.com/c/dooo/9' class='blue-btn'>Domain of One's Own</a>
-					       		<a href='https://community.reclaimhosting.com/c/cloud/36' class='blue-btn'>Reclaim Cloud</a>
+					       		<a href='https://forums.reclaimhosting.com/c/newbies/31' class='blue-btn'>Newbies Corner</a>
+					       		<a href='https://forums.reclaimhosting.com/c/dooo/9' class='blue-btn'>Domain of One's Own</a>
+					       		<a href='https://forums.reclaimhosting.com/c/cloud/36' class='blue-btn'>Reclaim Cloud</a>
 					       </div>
 					       <div class='col-md-6'>
 						      <h3>Latest Forum Activity</h3>
@@ -296,7 +296,7 @@ function modal_maker_tv($id, $title){
 					       		<p>Reclaim TV is a collection of of recordings from all things happening at Reclaim Hosting. As we slowly make the switch from YouTube, Reclaim TV will be our home base for archived events, podcast streams, and how-to videos.</p>
 					       		<h3>Popular Playlists</h3>
 					       		<a href='https://archive.reclaim.tv/w/p/rZqxbb5B4d5QR7kLzerwM8' class='blue-btn'>Previous Community Chats</a>
-					       		<a href='https://communitydev.reclaimhosting.com/#' class='blue-btn'>Video Documentation</a>
+					       		<a href='https://community.reclaimhosting.com/#' class='blue-btn'>Video Documentation</a>
 					       		<a href='https://today.reclaimhosting.com/' class='blue-btn'>Reclaim Today Podcast</a>
 					       		
 					       </div>
