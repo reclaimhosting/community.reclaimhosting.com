@@ -73,9 +73,8 @@ function edTechList(data){
 }
 
 function monthTranslator(monthNumber){
-	 const date = new Date();
-	 date.setMonth(monthNumber - 1);
-
+	  const date = new Date();
+	  date.setMonth(monthNumber - 1, 1);
 	  return date.toLocaleString('en-US', { month: 'short' });
 }
 
