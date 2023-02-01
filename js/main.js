@@ -85,7 +85,7 @@ function monthTranslator(monthNumber){
 **
 */
 function doTheChat(){
-	const url = 'https://www.reclaimhosting.com/wp-json/tribe/events/v1/events?categories=742&per_page=5&_embed';
+	const url = 'https://www.reclaimhosting.com/wp-json/tribe/events/v1/events?categories=742&per_page=4&_embed';
 	const data = chatFetch(url);
 }
 
@@ -112,7 +112,7 @@ function makeChatList(data){
             const link = element.url;
             const title = element.title;
             const excerpt = element.excerpt;
-            const date = element.date.slice(0, 10);
+            const date = element.start_date.slice(0, 10);
             //const author = element._embedded.author[0].name;
             //const image = element.feature_image;
             if (postCount < 6) {
