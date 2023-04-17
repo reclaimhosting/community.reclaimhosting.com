@@ -338,6 +338,7 @@ function modal_maker_social($id, $title){
 						    	<p>Reclaim Hosting can be found on a number of social media accounts, and connecting with us on these platforms can be a great way to stay in the know or quickly get in touch. We use these tools to talk about the work we’re doing, highlight voices in the community, share upcoming maintenance, and more. </p>
 						    	<h3>Say Hellow & Follow Along</h3>
 						    	<p>Like and subscribe, or use these platforms as a launching point to connect with others. We’d love to hear from you!</p>
+							<a href='https://reclaim.rocks/@reclaimhosting/' class='blue-btn'>Follow @reclaimhosting@reclaim.rocks on Mastodon</a>
 						    	<a href='https://twitter.com/ReclaimHosting' class='blue-btn'>Follow @ReclaimHosting on Twitter</a>
 						    	<a href='https://reclaimed.tech/discord' class='blue-btn'>Join the Discord Server</a>
 						    	<a href='https://today.reclaimhosting.com/' class='blue-btn'>Listen to the Reclaim Today Podcast</a>
