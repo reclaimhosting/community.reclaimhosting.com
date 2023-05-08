@@ -255,7 +255,7 @@ function modal_maker_support($id, $title){
 					      		<p>Check out the following list of Reclaim Support resources:</p>
 					      		<a class='blue-btn' href="https://support.reclaimhosting.com/hc/en-us">Support Documentation</a>
 					      		<a class='blue-btn' href="https://reclaimhosting.com/category/announcements/infrastructure/">Infrastructure Announcements</a>
-					      		<a class='blue-btn' href="https://status.reclaimhosting.com/">Server Monitorying & Status Reports</a>
+					      		<a class='blue-btn' href="https://status.reclaimhosting.com/">Server Monitoring & Status Reports</a>
 					      		<a class='blue-btn' href="https://support.reclaimhosting.com/hc/en-us/requests/new/">Contact Reclaim Support</a>
 								  <h3>Our Recently Updated Support Articles</h3>
 								  <div id='support-comments'></div>
@@ -336,7 +336,7 @@ function modal_maker_social($id, $title){
 					       <div class='col-md-6'>
 						    	<h3>Reclaim Hosting around the Web</h3>
 						    	<p>Reclaim Hosting can be found on a number of social media accounts, and connecting with us on these platforms can be a great way to stay in the know or quickly get in touch. We use these tools to talk about the work we’re doing, highlight voices in the community, share upcoming maintenance, and more. </p>
-						    	<h3>Say Hellow & Follow Along</h3>
+						    	<h3>Say Hello & Follow Along</h3>
 						    	<p>Like and subscribe, or use these platforms as a launching point to connect with others. We’d love to hear from you!</p>
 							<a href='https://reclaim.rocks/@reclaimhosting/' class='blue-btn'>Follow @reclaimhosting@reclaim.rocks on Mastodon</a>
 						    	<a href='https://twitter.com/ReclaimHosting' class='blue-btn'>Follow @ReclaimHosting on Twitter</a>
