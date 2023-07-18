@@ -6,3 +6,7 @@ RedirectMatch 301 /t/(.*) "https://forums.reclaimhosting.com/t/$1"
 RedirectMatch 301 /u/(.*) "https://forums.reclaimhosting.com/u/$1"
 RedirectMatch 301 /c/(.*) "https://forums.reclaimhosting.com/c/$1"
 RedirectMatch 301 /uploads/(.*) "https://forums.reclaimhosting.com/uploads/$1"
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit
