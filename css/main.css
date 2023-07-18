@@ -21,7 +21,6 @@ a {
 
 .channels {
 	margin-top: 50px;
-	min-height: 80vh;
 }
 
 .channel{
@@ -285,4 +284,14 @@ h3 {
 		margin-left: 0;
 	}
 
+}
+
+#roundup-img {
+  max-height: 20vh;
+}
+
+#social-stack {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
 }

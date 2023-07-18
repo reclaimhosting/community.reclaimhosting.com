@@ -195,6 +195,7 @@ function modal_maker_roundup($id, $title){
 			      		<div class='row'>
 				      		
 					       <div class='col-md-6'>
+							<img src='imgs/Roundup-on-a-TV-1024x789.webp' id='roundup-img' class='img-fluid col-img' alt='An old TV cartoon with Reclaim Roundup on the screen.'>
 					       		<h3>Reclaiming the Newsletter</h3>
 					       		<p>A lot goes on backstage at Reclaim Hosting, and we want to share it all with you. The <a href='https://roundup.reclaimhosting.com/'>Reclaim Roundup</a> is published on the last day of each month and includes the following topics:</p>
 					       		<ul>
@@ -212,7 +213,6 @@ function modal_maker_roundup($id, $title){
 								<a class='blue-btn' href="https://roundup.reclaimhosting.com/rss/">RSS Feed</a>
 					       </div>
 					       <div class='col-md-6'>
-							   <img src='imgs/Roundup-on-a-TV-1024x789.webp' class='img-fluid col-img' alt='An old TV cartoon with Reclaim Roundup on the screen.'>
 							  <h3>Latest Issue</h3>
 							  <div id='latest-roundup'></div>
 					       </div>
@@ -331,7 +331,7 @@ function modal_maker_social($id, $title){
 			      		<div class='row'>			      	
 				      		
 					       <div class='col-md-6'>					       		
-					       		<img class="img-fluid" src='imgs/social-stack-copy.webp' alt='A stack of TVs with various Reclaim statements on them.'>
+					       		<img class="img-fluid" id="social-stack" src='imgs/social-stack-copy.webp' alt='A stack of TVs with various Reclaim statements on them.'>
 					       </div>
 					       <div class='col-md-6'>
 						    	<h3>Reclaim Hosting around the Web</h3>
