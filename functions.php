@@ -38,7 +38,7 @@ function modal_maker_edtech(){
 								<p>At any given time, we’re gearing up for a flex course, workshop, community chat, or impromptu stream. Check out the list of upcoming events or click on the following links to get involved:</p>
 									<a class='blue-btn' href='https://reclaimed.tech/'>reclaim.tech</a>
 									<a class='blue-btn' href='https://reclaimed.tech/discord'>Say hello on Discord</a>
-									<a class='blue-btn' href='https://reclaimhosting.com/events/'>Upcoming Events</a>
+									<a class='blue-btn' href='https://events.reclaimhosting.com/events/'>Upcoming Events</a>
 					       </div>
 					       <div class='col-md-6'>
 						   <div id='ed-tech-events'></div>

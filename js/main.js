@@ -16,7 +16,7 @@ doTheTV();
 **
 */
 function doTheEdtech(){
-	const url = 'https://www.reclaimhosting.com/wp-json/tribe/events/v1/events';
+	const url = 'https://events.reclaimhosting.com/wp-json/tribe/events/v1/events';
 	const data = edTechFetch(url);
 }
 
@@ -85,7 +85,7 @@ function monthTranslator(monthNumber){
 **
 */
 function doTheChat(){
-	const url = 'https://www.reclaimhosting.com/wp-json/tribe/events/v1/events?categories=742&per_page=4&_embed';
+	const url = 'https://events.reclaimhosting.com/wp-json/tribe/events/v1/events?categories=39&per_page=4&_embed';
 	const data = chatFetch(url);
 }
 
