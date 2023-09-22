@@ -17,7 +17,7 @@
     			<a href="https://community.reclaimhosting.com/"><img width="405" height="70" src="imgs/reclaim-logo.png" alt="Relcaim Hosting logo." class="header-logo img-fluid"></a>
             <ul id="nav-menu">
               <li>
-                <a href="https://events.reclaimhosting.com/events" class="">
+                <a href="https://events.reclaimhosting.com/" class="">
                   Event Calendar
                 </a>
               </li>
