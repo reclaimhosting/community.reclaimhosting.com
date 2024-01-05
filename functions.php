@@ -121,7 +121,7 @@ function modal_maker_announcements($id, $title){
 					       		</p>
 								<h3>Other Announcements</h3>
 								<p>Below you can find a list of quick links to various happenings at Reclaim Hosting. Like and subscribe!</p>
-								<a class='blue-btn' href="https://blog.reclaimhosting.com">Reclaim the Blog</a>=
+								<a class='blue-btn' href="https://blog.reclaimhosting.com">Reclaim the Blog</a>
 								<a class='blue-btn' href="https://roundup.reclaimhosting.com/">The Reclaim Newsletter</a>
 					       </div>
 					       <div class='col-md-6'>
