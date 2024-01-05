@@ -143,7 +143,7 @@ function makeChatList(data){
 
 
 function doTheAnnounce(){
-	const url = 'https://www.reclaimhosting.com/wp-json/wp/v2/posts?per_page=5&_embed&_embed';
+	const url = 'https://www.reclaimhosting.com/wp-json/wp/v2/posts?per_page=6';
 	const data = announceFetch(url);
 }
 
