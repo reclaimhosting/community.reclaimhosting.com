@@ -87,4 +87,5 @@
 <?php 
   json_fetcher('https://reclaimhosting.zendesk.com/api/v2/help_center/en-us/articles?sort_by=updated_at&sort_order=desc','zen');
   json_fetcher('https://forums.reclaimhosting.com/posts.json','community');
+  json_fetcher('http://51.81.12.199/wp-json/wp/v2/posts?per_page=5&_embed&_embed','blog');
 ?>
